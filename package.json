@@ -1,0 +1,13 @@
+{
+  "name": "playwright-js-framework",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.0"
+  }
+}
+

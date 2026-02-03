@@ -1,0 +1,96 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - heading "Login to your account" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - textbox "Email Address" [ref=e44]: testuser@example.com
+        - textbox "Password" [ref=e45]: Password123
+        - paragraph [ref=e46]: Your email or password is incorrect!
+        - button "Login" [ref=e47] [cursor=pointer]
+    - heading "OR" [level=2] [ref=e49]
+    - generic [ref=e51]:
+      - heading "New User Signup!" [level=2] [ref=e52]
+      - generic [ref=e53]:
+        - textbox "Name" [ref=e54]
+        - textbox "Email Address" [ref=e55]
+        - button "Signup" [ref=e56] [cursor=pointer]
+  - contentinfo [ref=e57]:
+    - generic [ref=e62]:
+      - heading "Subscription" [level=2] [ref=e63]
+      - generic [ref=e64]:
+        - textbox "Your email address" [ref=e65]
+        - button "" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]: 
+        - paragraph [ref=e68]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e72]: Copyright © 2021 All rights reserved
+  - text: 
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+  - insertion [ref=e73]:
+    - iframe [ref=e76]:
+      - iframe [ref=f24e1]:
+        - generic [active] [ref=f28e1]:
+          - link "Advertisement" [ref=f28e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CwAXl3MGBaZ2iGYPjkPIPgJWrwA6ztNjGdr_8qJDWEc3j3uqgDhABIP20npUBYMvUtAWgAdLG74gDyAEJqAMByANIqgTlAU_Q8hKBjXz65rkJVjUDi-IOd72WXwMlTBaUp2zLzf1HmiJokoWYTigqPXzTibkvGstph0CGx2RHpsz3a73UyoONaGsYHDO6gSqa_W6orYfZpomBJ43kVR9QdTAPzkRiRmChq49aQ8ogi01FpdHGsS9OgdBOetRAQuhHaP_m7NdUlHn7XRzu0sLnzcxh-X5QXMfz8fTC_rf2yn2Y9ysGfKppR7jnafZOPD01Gm3LO9A7LQqiO8eZtZR-nKFRz34MpRMaINQlpjhCu8YTmUANzIi-CzpVWTmC5zQjWjuxU5ccNLevl-zABPbTuKCqBIgFy7jNvkugBi6AB5a5kHeoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljYttGCg72SA7EJ6reA86v75xiACgGYCwHICwGADAGiDAOQAQGqDQJQS8gNAeoNEwjUgdaCg72SAxWDMUQIHYDKCujwDQKIDgnYEwPQFQGYFgHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAvJsGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMInYDWgoO9kgMVgzFECB2AygroEAEYASAAEgJHWvD_BwE&num=1&cid=CAQSrAEA56J1efTGcQsXQorGPHOHhik11tSeAgp3ZQVMEK6VV3TSgKHIQIxRFW2pcQl-Lx7_vKKm1r2k11iqGhHGbgOn8-w1KPrA7SGP_Au1-HWqt50sB80AJQV8dV4zZw1uvHU_zVxzJLHo1-M3FPt4WdN09UbmFX3M2UMCgEHB8dD88vSVJXTH7HpNQqmFeht2vYQ84BGxoKB3W9jNAiroA4M7is9iMvhCI_i2-rsrGAE&sig=AOD64_21-tMCKGOT4jMGZG91F0CSXCYP6Q&client=ca-pub-1677597403311019&rf=1&nb=25&adurl=http://labs.apnic.net%3Fgad_source%3D5%26gad_campaignid%3D20263951435%26gclid%3DEAIaIQobChMInYDWgoO9kgMVgzFECB2AygroEAEYASAAEgJHWvD_BwE
+            - iframe [ref=f28e9]:
+              - generic [active] [ref=f29e1] [cursor=pointer]:
+                - img [ref=f29e2]
+                - text: Thank you for helping us measure the Internet.
+          - img [ref=f28e13] [cursor=pointer]
+          - button [ref=f28e15] [cursor=pointer]:
+            - img [ref=f28e16]
+          - iframe
+```
